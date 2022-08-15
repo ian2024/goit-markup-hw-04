@@ -91,6 +91,7 @@ footer .logo-studio {
     margin-right: 50px;
 }
 
+
 .link {
     color: var(--title-text-color);
     font-weight: 500;
@@ -120,12 +121,16 @@ footer .logo-studio {
     display: flex;
     padding: 0;
     margin-left: auto;
-   
 }
 
-.contacts .item + .item {
+/* .contacts .item {
+    margin-right: 28px;
+} */
+
+/* .contacts .item + .item {
     margin-left: 50px;
-}
+} */
+
 
 .link-top {
     color: inherit;
@@ -167,7 +172,7 @@ footer .logo-studio {
     url(../images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: cover;
 }
 
 .module-hero {
@@ -271,6 +276,12 @@ footer .logo-studio {
 
 .section-reset {
     padding-bottom: 0;
+}
+
+.block-work .headline {
+    margin-bottom: 50px;
+    color: #212121;
+    font-size: 36px;
 }
 
 .block-work {
@@ -388,6 +399,7 @@ margin-right: 30px;
 
 .clients-list {
     display: flex;
+    margin-left: -30px;
 }
 
 .clients-item {
@@ -408,6 +420,8 @@ margin-right: 30px;
 
 .clients-icon {
     fill: currentColor;
+    margin: 16px 32px;
+   align-items: center ;
 }
 
 .clients-link:hover,
@@ -421,6 +435,7 @@ margin-right: 30px;
     display: flex;
     justify-content: center;
     list-style: none;
+    margin-top: 16px;
 
 }
 
@@ -478,7 +493,7 @@ footer {
     padding-bottom: 60px;
 }
 
-.footer-list:not(:last-child) {
+.footer-item:not(:last-child) {
     margin-bottom: 9px;
 
 }
